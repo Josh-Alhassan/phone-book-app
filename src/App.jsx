@@ -34,7 +34,7 @@ function App() {
 
       <form onSubmit={handleSubmit}>
         <div>
-          name: <input value={newName} onChange={handleNameChange} />
+        <strong>Name:</strong> <input value={newName} onChange={handleNameChange} />
         </div>
         <div>
           <button type="submit">Add</button>
